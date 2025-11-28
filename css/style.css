@@ -623,3 +623,51 @@ h6,
     color: var(--secondary);
 }
 
+
+/*** Bootstrap Color Overrides ***/
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-outline-primary {
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary) !important;
+    color: #fff !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.btn-secondary {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+.btn-outline-secondary {
+    color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary) !important;
+    color: #fff !important;
+}
+
